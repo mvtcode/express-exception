@@ -1,0 +1,26 @@
+{
+  "name": "express-exception",
+  "version": "0.0.1",
+  "description": "Express capture exception for response",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "tanmv",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/method-override": "0.0.32",
+    "@types/node": "^18.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
